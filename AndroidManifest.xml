@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.nkh.simpleservice" android:sharedUserId="android.uid.system" android:versionCode="1" android:versionName="">
+
+    <application android:label="" android:persistent="true">
+
+        <service android:name="com.nkh.simpleservice.SimpleService">
+        </service>
+
+    </application>
+
+</manifest>
