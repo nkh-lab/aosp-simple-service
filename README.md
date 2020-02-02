@@ -8,3 +8,12 @@ Example of the simple Java server.
 1. Add product package:
 device/linaro/hikey/hikey960/device-hikey960.mk
 PRODUCT_PACKAGES += SimpleService
+
+## Start service
+1. Via Activity Manager:
+am startservice com.nkh.simpleservice/.SimpleService
+
+logcat output:
+02-02 15:06:08.057  2966  2966 D SimpleService: onCreate()
+02-02 15:06:08.058  2966  2966 D SimpleService: onStartCommand()
+

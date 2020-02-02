@@ -19,7 +19,7 @@ public class SimpleService extends Service {
     public void onCreate() {
         super.onCreate();
 
-        Log.d(TAG, "onCreated");
+        Log.d(TAG, "onCreate()");
     }
 
     /**
@@ -27,7 +27,7 @@ public class SimpleService extends Service {
      */
     @Override
     public void onDestroy() {
-        Log.d(TAG, "onDestroy");
+        Log.d(TAG, "onDestroy()");
 
         super.onDestroy();
     }
@@ -40,7 +40,7 @@ public class SimpleService extends Service {
      */
     @Override
     public IBinder onBind(Intent intent) {
-        Log.d(TAG, "onBind");
+        Log.d(TAG, "onBind()");
 
         return null;
     }
