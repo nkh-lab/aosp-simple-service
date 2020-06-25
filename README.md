@@ -1,5 +1,5 @@
 # SimpleService
-Example of the simple Java server.
+Example of the simple Java service.
 
 ## Properties
 1. System
